@@ -1,0 +1,79 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Datum Docs",
+  "colors": {
+    "primary": "#BF9595",
+    "light": "#ECD0D0",
+    "dark": "#4D6356"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Discord",
+          "icon": "book-open-cover",
+          "color": {
+            "light": "#BF9595",
+            "dark": "#BF9595"
+          },
+          "href": "https://link.datum.net/discord"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "color": {
+            "light": "#BF9595",
+            "dark": "#BF9595"
+          },
+          "href": "https://www.datum.net/blog"
+        }
+      ]
+    },
+    "anchors": [
+      {
+        "anchor": "Datum Website",
+        "icon": "link-horizontal",
+        "href": "https://www.datum.net"
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@datum.net"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://cloud.datum.net"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "youtube": "https://link.datum.net/youtube",
+      "github": "https://github.com/datum-cloud",
+      "linkedin": "https://linkedin.com/company/datum-cloud"
+    }
+  },
+  "description": "Developer resources for Datum Cloud"
+}
